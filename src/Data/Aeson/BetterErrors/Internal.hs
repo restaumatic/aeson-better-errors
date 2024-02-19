@@ -16,9 +16,9 @@ import Control.Monad.Identity
 import Control.Monad.Reader
 import Control.Monad.Trans.Except
 import Control.Monad.Error.Class (MonadError(..))
+import Control.Monad (forM)
 
 import Data.Void
-import Data.Monoid
 import Data.DList (DList)
 import qualified Data.DList as DList
 import Data.Text (Text)
